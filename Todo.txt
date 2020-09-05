@@ -1,0 +1,14 @@
+Chess Game
+
+TODO:
+show history
+Account for stalemate
+Improve AI
+Write tests
+
+
+AI:
+To improve alpha beta pruning, the moves must be roughly ordered so that more likely valuable moves occur first in the list
+	This can be done within the getLegalMoves method
+Another way to improve efficiency is to store where its pieces are instead of searching for them
+
